@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonty do wstawienia font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+/*   */
+/*--------------------------------------------------------
+-------------------------SECTION 1------------------------
+--------------------------------------------------------*/
+.section-1 {
+    height: 70px;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.container-s1 {
+    width: 1352px; /* nie wiem czy nie powinno być 1354 tak mi wychodzi z adobe */
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title-s1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: rgba(8, 166, 228, 1);
+}
+
+/*moje rozwiazanie
+.menu-s1{
+    width: 484px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-inside-s1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 3px ;
+    color: rgba(165, 165, 165, 1);
+    text-decoration: none;
+}
+
+.menu-box-s1{
+    position: relative;
+}
+
+.menu-bottom-element-s1{
+    background: rgba(8, 166, 228, 0);
+    position: absolute;
+    left: -7px;
+    top: 42px;
+    height: 2px;
+}
+
+.menu-bottom-element1-s1{
+    width: 74px;
+}
+.menu-bottom-element2-s1{
+    width: 88px;
+}
+.menu-bottom-element3-s1{
+    width: 68px;
+}
+.menu-bottom-element4-s1{
+    width: 86px;
+}
+
+.menu-inside-s1:hover{
+    color: black;
+}
+.menu-inside-s1:hover + div{
+    background: rgba(8, 166, 228, 1);
+}
+
+/* .menu-bottom-element-s1 pozycjonowanie pasków na dole względem punktu odniesienia */
+/*moje rozwiazanie jest u góry tu sa komentarze
+ .menu-box-s1 punkt odniesienia dla pozycji absolutnej pasków
+ .menu-inside-s1:hover zmiana koloru dla nazy i paska na dole
+ .menu-inside-s1:hover + div zapytaj czy można to zrobić tylko za pomocą class  */
+.menu-s1 {
+    display: flex;
+    justify-content: space-between;
+    width: 498px;
+}
+
+.menu-inside-s1 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2px; /*przeciwwaga dla border bottom*/
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: rgba(165, 165, 165, 1);
+    text-decoration: none;
+    border-bottom: 2px solid rgba(8, 166, 228, 0);
+    padding: 25px 7px;
+}
+
+.menu-inside-s1:hover {
+    border-bottom: 2px solid rgba(8, 166, 228, 1);
+    color: rgba(0, 0, 0, 1)
+}
+
+/*--------------------------------------------------------
+-------------------------SECTION 2------------------------
+--------------------------------------------------------*/
+.section-2 {
+}
+
+.container-s2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.title-s2 {
+    margin: 0;
+    font-size: 49px;
+    line-height: 57px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-s2 {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.action-s2 {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    padding: 22px 157px;
+    background: rgba(8, 166, 228, 1);
+    border-radius: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    box-shadow: 3px 10px 14px rgba(7, 172, 230, 0.16);
+}
+
+.image-s2 {
+    width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------------------
+-------------------------SECTION 3------------------------
+--------------------------------------------------------*/
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-s3 {
+    margin: 100px 456px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.container-s3 {
+    width: 793px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-s3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 121px;
+}
+
+.dot-s3 {
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.dot1-s3 {
+    border: 32px solid rgba(251, 59, 100, 1);
+}
+
+.dot2-s3 {
+    border: 32px solid rgba(8, 166, 228, 1);
+}
+
+.dot3-s3 {
+    border: 32px solid rgba(85, 223, 180, 1);
+}
+
+.number-s3 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 6px;
+}
+
+.text-s3 {
+    width: 120px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    font-family: 'Raleway', sans-serif;
+}
+
+.image1-s3 {
+    position: absolute;
+    top: -26px;
+}
+
+.image2-s3 {
+    position: absolute;
+    top: -19px;
+    left: -11px;
+}
+
+.image3-s3 {
+    position: absolute;
+    top: -24px;
+}
+
+/*--------------------------------------------------------
+-------------------------SECTION 4------------------------
+--------------------------------------------------------*/
+.section-4 {
+    background: rgba(247, 247, 247, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.container-s4 {
+    width: 1124px;
+
+}
+
+.box-s4 {
+    height: 370px;
+}
+
+.box1-s4 {
+    margin-top: 105px;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.blok1-box1-s4 {
+    margin-top: 91px;
+    margin-left: 35px;
+    width: 416px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.title-s4 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.text12-s4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.line1-s4 {
+    width: 323px;
+    border: 2px solid rgba(251, 59, 100, 1);
+}
+
+.shape1-s4 {
+    height: 0;
+    border-radius: 41px;
+    border: 91px solid rgba(251, 59, 100, 1);
+    transform: rotate(45deg);
+    position: relative;
+    margin-top: 38px;
+    margin-right: 0;
+}
+
+.image1-s4-box {
+    margin-top: 31px;
+    margin-right: 71px;
+    height: 255px;
+    width: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1-s4 { /*laptop*/
+    width: 386px;
+    height: 219px;
+    position: absolute;
+    top: 113px;
+    right: 117px;
+}
+
+.box2-s4 {
+    margin: 37px 0;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blok1-box2-s4 {
+    margin-top: 69px;
+    margin-right: 20px;
+    width: 416px;
+}
+
+.image2-s4 { /*telefon*/
+    width: 426px;
+    height: 328px;
+    position: absolute;
+    top: 29px;
+    left: 70px;
+}
+
+.title2-s4 {
+    width: 246px;
+}
+
+.line2-s4 {
+    width: 323px;
+    border: 2px solid rgba(8, 166, 228, 1);
+}
+
+.circle-s4 {
+    border: 160px solid rgba(8, 166, 228, 1);
+    border-radius: 50%;
+    height: 0;
+    width: 0;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.box3-s4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+
+.blok3-s4 {
+    padding: 70px 35px;
+    box-sizing: border-box;
+    width: 624px;
+    background: white;
+}
+
+.title3-s4 {
+    width: 348px;
+}
+
+.text3-s4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 44px;
+    width: 553px;
+}
+
+.line3-s4 {
+    width: 323px;
+    border: 2px solid rgba(85, 223, 180, 1);
+}
+
+.blok4-s4 {
+    width: 440px;
+    background: rgba(85, 223, 180, 1);
+}
+
+.image3-s4 {
+    height: 207px;
+    width: 295px;
+    margin-top: 98px;
+    margin-left: 62px;
+}
+
+/*--------------------------------------------------------
+-------------------------SECTION 5------------------------
+--------------------------------------------------------*/
+.section-5 {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-s5 {
+    margin-top: 100px;
+    width: 1266px;
+}
+
+.main-title-s5 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.table-container-s5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-s5 {
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.table1-s5 {
+    margin-top: 71px;
+    border: 1px solid rgba(235, 71, 110, 1);
+    height: 461px;
+    width: 372px;
+}
+
+.table2-s5 {
+    margin-top: 50px;
+    border: 1px solid rgba(7, 172, 230, 1);
+    height: 500px;
+    width: 405px;
+}
+
+.table3-s5 {
+    margin-top: 71px;
+    border: 1px solid rgba(85, 223, 180, 1);
+    height: 461px;
+    width: 372px;
+}
+
+.botton-link-s5 {
+    position: relative;
+    border-radius: 23px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.botton1-link-s5 {
+    padding: 16px 57px;
+    background: rgba(235, 71, 110, 1);
+    top: 71px
+}
+
+.botton2-link-s5 {
+    padding: 16px 65px;
+    background: rgba(7, 172, 230, 1);
+    top: 69px
+}
+
+.botton3-link-s5 {
+    padding: 16px 57px;
+    background: rgba(85, 223, 180, 1);
+    top: 71px;
+}
+
+.title-s5 {
+    margin-top: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.price-s5 {
+    margin-top: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+}
+
+.price1-s5 {
+    color: rgba(235, 71, 110, 1);
+    height: 64px;
+}
+
+.price2-s5 {
+    color: rgba(7, 172, 230, 1);
+    height: 70px;
+}
+
+.price3-s5 {
+    color: rgba(85, 223, 180, 1);
+    height: 64px;
+}
+
+.limit-s5 {
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.text-line-f1-s5 {
+    margin-top: 69px;
+}
+
+.text-line-f2-s5 {
+    margin-top: 61px;
+}
+
+.text-line-f3-s5 {
+    margin-top: 50px;
+}
+
+.text-line-s5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-line-margin1 {
+    margin-top: 20px;
+}
+
+.text-line-margin2 {
+    margin-top: 25px;
+}
+
+.text-line-margin3 {
+    margin-top: 26px;
+}
+
+.text-image1-s5::before {
+    content: "";
+    background-image: url("../images/Ckechmark-1.svg");
+    height: 11px;
+    width: 11px;
+    margin-right: 10px;
+}
+
+.text-image2-s5::before {
+    content: "";
+    background-image: url("../images/Close.svg");
+    height: 11px;
+    width: 11px;
+    margin-right: 10px;
+}
+
+/*--------------------------------------------------------
+-------------------------SECTION 6------------------------
+--------------------------------------------------------*/
+.section-6{
+    display: flex;
+    justify-content: center;
+}
+.container-s6{
+    margin-top: 171px;
+    margin-bottom: 59px;
+    width: 896px;
+    height: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-s6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    font-weight: 400;
+}
+.text-s6{
+    margin-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.email-phone-box-s6{
+    display:flex;
+    justify-content: flex-start;
+}
+.email-s6::before{
+    content: "";
+    background-image: url("../images/MailIcon.svg");
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+
+}
+.phone-s6::before{
+    content: "";
+    background-image: url("../images/PhoneIcon.svg");
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+}
+.email-phone-s6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(165, 165, 165, 1);
+    display: flex;
+}
+.email-s6{
+    margin-right: 20px;
+}
+.box2-s6{
+    width: 440px;
+}
+.name-email-s6{
+    display: flex;
+    flex-direction: column;
+}
+.email-name-title-s6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgba(8, 166, 228, 1);
+}
+.type-s6{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+
+    height: 42px;
+    width: 440px;
+    box-sizing: border-box;
+    border: 0 solid white;  /* tu jest coś źle, ale zrobiłem to za wszelka cene*/
+    border-bottom: 2px solid rgba(165, 165, 165, 1);
+}
+.type-s6:checked:after{
+    content: "";
+}
+
+.email-title-s6{
+    margin-top: 42px;
+}
+.checkbox-s6{
+    display: flex;
+    margin-top: 30px;
+}
+.checkbox-box-s6 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+
+    height: 24px;
+    width: 24px;
+    border: 1px solid rgba(165, 165, 165, 1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+}
+.checkbox-box-s6:checked:after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    background-image: url("../images/Checkmark.svg");
+    height: 12px;
+    width: 12px;
+}
+
+.text-checkbox-s6{
+    width: 405px;
+    color: rgba(112, 112, 112, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.button-s6{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+
+    border: 0 solid rgba(165, 165, 165, 0);
+    padding: 20px 97px;
+    background: rgba(8, 166, 228, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-left: 213px;
+}
+.button-s6:checked:after{
+    content: "";
+}
+/*--------------------------------------------------------
+-------------------------SECTION 7------------------------
+--------------------------------------------------------*/
+.section-7 {
+    display: flex;
+    justify-content: center;
+    height: 89px;
+    box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.16);
+}
+.container-s7{
+    display: flex;
+    justify-content: space-between;
+    width: 1352px;
+}
+.logo-s7{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    color: rgba(8, 166, 228, 1);
+}
+.copyright-s7{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(165, 165, 165, 1);
+}
+.socialmedia-s7{
+    display: flex;
+    justify-content: space-between;
+    width: 68px;
+}
+.fbtw-s7{
+    margin-top: 35px;
+    height: 24px;
+    width: 24px;
+}
+.facebook-s7{
+    background-image: url("../images/Facebook.svg");
+}
+.twitter-s7{
+    background-image: url("../images/Twitter.svg");
+}
