@@ -1,0 +1,184 @@
+.section-6{
+  display: flex;
+  justify-content: center;
+}
+.container-s6{
+  margin-top: 171px;
+  margin-bottom: 59px;
+  width: 896px;
+  height: 376px;
+  display: flex;
+  justify-content: space-between;
+  @media ( max-width: 799px ){
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 316px;
+    height: 651px;
+    margin-bottom: 44px;
+    margin-top: 53px;
+  }
+}
+.title-s6{
+  font-family: 'Raleway', sans-serif;
+  font-size: 49px;
+  font-weight: 400;
+  @media ( max-width: 799px ){
+    font-size: 40px;
+  }
+}
+.text-s6{
+  margin-top: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+  @media ( max-width: 799px ){
+    margin-top: 5px;
+    margin-bottom: 38px;
+  }
+}
+.email-phone-box-s6{
+  display:flex;
+  justify-content: flex-start;
+  @media ( max-width: 799px ){
+    flex-direction: column;
+  }
+}
+.email-s6::before{
+  content: "";
+  background-image: url("../images/MailIcon.svg");
+  height: 27px;
+  width: 27px;
+  margin-right: 10px;
+
+}
+.phone-s6::before{
+  content: "";
+  background-image: url("../images/PhoneIcon.svg");
+  height: 27px;
+  width: 27px;
+  margin-right: 10px;
+  @media ( max-width: 799px ){
+    margin-bottom: 53px;
+  }
+}
+.email-phone-s6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(165, 165, 165, 1);
+  display: flex;
+}
+.email-s6{
+  margin-right: 20px;
+}
+.phone-s6{
+  @media ( max-width: 799px ){
+    margin-top: 17px;
+  }
+}
+.box2-s6{
+  width: 440px;
+  @media ( max-width: 799px ){
+    width: 312px;
+  }
+}
+.name-email-s6{
+  display: flex;
+  flex-direction: column;
+}
+.email-name-title-s6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: rgba(8, 166, 228, 1);
+}
+.type-s6{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  outline: none;
+
+  height: 42px;
+  width: 440px;
+  box-sizing: border-box;
+  border: 0 solid white;  /* tu jest coś źle, ale zrobiłem to za wszelka cene*/
+  border-bottom: 2px solid rgba(165, 165, 165, 1);
+  @media ( max-width: 799px ){
+    width: 312px;
+  }
+}
+.type-s6:checked:after{
+  content: "";
+}
+
+.email-title-s6{
+  margin-top: 42px;
+}
+.checkbox-s6{
+  display: flex;
+  margin-top: 30px;
+}
+.checkbox-box-s6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  outline: none;
+
+  height: 24px;
+  width: 24px;
+  border: 1px solid rgba(165, 165, 165, 1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+}
+.checkbox-box-s6:checked:after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  background-image: url("../images/Checkmark.svg");
+  height: 12px;
+  width: 12px;
+}
+
+.text-checkbox-s6{
+  width: 405px;
+  color: rgba(112, 112, 112, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+  @media ( max-width: 799px ){
+    width: 277px;
+  }
+}
+.button-s6{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  outline: none;
+
+  border: 0 solid rgba(165, 165, 165, 0);
+  padding: 20px 97px;
+  background: rgba(8, 166, 228, 1);
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  border-radius: 35px;
+  margin-top: 20px;
+  margin-left: 213px;
+  @media ( max-width: 799px ){
+    margin-left: 90px;
+  }
+
+
+}
+.button-s6:checked:after{
+  content: "";
+}

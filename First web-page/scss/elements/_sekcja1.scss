@@ -1,0 +1,52 @@
+.section-1 {
+  height: 70px;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.container-s1 {
+  max-width: 1352px;      // nie wiem czy nie powinno być 1354 tak mi wychodzi z adobe
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.title-s1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: rgba(8, 166, 228, 1);
+  @media ( max-width: 768px ) {
+    margin-left: 25px;
+  }
+  }
+
+.menu-s1 {
+  display: flex;
+  justify-content: space-between;
+  width: 498px;
+  @media ( max-width: 768px ){
+    display: none;
+  }
+}
+.menu-inside-s1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2px; /*przeciwwaga dla border bottom*/
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: rgba(165, 165, 165, 1);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(8, 166, 228, 0);
+  padding: 25px 7px;
+}
+
+.menu-inside-s1:hover {
+  border-bottom: 2px solid rgba(8, 166, 228, 1);
+  color: rgba(0, 0, 0, 1)
+}
